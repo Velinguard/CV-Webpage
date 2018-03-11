@@ -20,7 +20,10 @@ h1 {
 }
 h2 {
   font-weight: 400;
+	margin: 0;
   text-align: center;
+	width: 70%;
+  margin-left: 15%;
 }
 
 p {
@@ -200,6 +203,17 @@ blockquote {
 	width: 100%;
 }
 
+#portrait {
+	width: 30%;
+	min-width: 150px;
+	text-align: center;
+}
+#portrait img{
+	width: 100%;
+	text-align: center;
+	border-radius: 50%;
+}
+
 #author{
 	width: 70%;
   margin-right: 15%;
@@ -235,11 +249,18 @@ blockquote {
 	width: 30%;
 	padding-left: 0%;
 }
+#figleft15{
+	align: Left;
+	float: Left;
+	min-width: 200px;
+	width: 15%;
+	padding-left: 15%;
+}
 
 #figright{
 	float: Right;
-	max-width: 100px;
+	align: Right;
 	min-width: 600px;
-	width: 1%;
-	padding-left: 0%;
+	width: 30%;
+	padding-right: 0%;
 }
